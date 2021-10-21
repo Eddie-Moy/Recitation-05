@@ -78,8 +78,8 @@ We can use `scan` to create the needed list. You may need to adjust slightly the
 
 > **put in answers.md**
 
-.  
-.  
+.  The work of get_positions is O(n) because our efficient version from class was O(n).
+.  The span of this is O(log(n))
 . 
 
 
@@ -96,8 +96,8 @@ Implement `construct_output` with a simple for loop and test with `test_construc
 
 > **put in answers.md**
 
-.  
-.  
+.  The work of construct_output is O(n)
+.  The span of construct_output is still O(n). Nothing can be parallelized because each loop requires the positions list to be updated.
 . 
 
 
